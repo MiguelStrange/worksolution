@@ -1,0 +1,108 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+  
+}
+
+body{
+    font-family: 'Alkatra', sans-serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: azure;
+}
+
+header{
+    background-color: darkslategray;
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+#contenedor{
+    width: 500px;
+    margin: 100px auto;
+    color: rgb(5, 5, 5);
+    border-radius: 2px ;
+    border-style: double ;
+   border-color: rgb(5, 5, 5);  
+   background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    float: right;
+}
+
+form{
+    width: 80%;
+    padding: 20px;
+    margin: 20px;
+    border: 2px solid #ccc;
+}
+
+label{
+    display: block;
+    font-size: 18px;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 2px solid #ccc;
+}
+
+textarea{
+    max-width: 400px;
+    min-height: 190px;
+    resize: vertical;
+}
+
+input[type="submit"]{
+    width: 50%;
+    color: white;
+    background-color: darkslategray;
+    border-radius: 1em;
+    border: 2px solid #ccc;
+}
+
+input[type="submit"]:hover{
+    color: black;
+    background-color: rgb(165, 170, 165);
+    cursor: pointer;
+}
+
+#cita{
+    width: 500px;
+    margin: 0px auto;
+}
+
+
+#fecha{
+    width: 500px;
+    margin: 0px auto;
+}
+
+h2{
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    font-size: 2.7em;
+}
+img{
+    width: 100px;
+}
+div{
+    background-color: black;
+    color: white;
+    background-position: center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+    float: left;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
